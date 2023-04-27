@@ -1,0 +1,14 @@
+body{
+    background-size: cover;
+}
+#header
+{
+    width: 100%;
+    height: 50px;
+    font-size: larger;
+    font-weight: bolder;
+}
+.textA
+{
+    width: 400px;
+}

@@ -1,0 +1,43 @@
+<html>
+<head>
+
+	<title>AI Video Surveillance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bg.jfif">
+    <center>
+        <div class="heading_div">
+        <button class="btn btn-info" id="header"> AI OBJECT FINDER<button>
+          <p class="btn btn-info">The input name which you will give should match the names present in CoCo model then only it will be detected</p>
+        </div>
+        <br>
+        <br>
+        <br>
+
+        <h3 id="objectName">Object Name :</h3>
+        <textarea id="OBEJCT_NAME" class="textA"> Enter Object Name</textarea>
+        <br> 
+        <br>
+        <br>
+        <button class="btn btn-success" onclick="start();">START</button>
+        <br>
+        <br>
+        <br>
+        <span>
+          <button class="btn btn-danger status"></button>
+          <button class="btn btn-warning objectNameFOUND"></button>
+        </span>
+
+    </center>
+</body>
+<html>
